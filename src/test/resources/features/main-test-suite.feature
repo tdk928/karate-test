@@ -32,10 +32,16 @@ Feature: Main Test Suite
     * def accessToken = response.accessToken
     
     # Step 4b: Get Companies and extract data for other endpoints
-    * call read('protected-endpoints.feature') { tagSelector: '@companies' }
+    * call read('protected-endpoints.feature') { tagSelector: '@companies', accessToken: '#(accessToken)' }
     
-    # Step 4c: Get Subscribed Products with shared token
-    * call read('protected-endpoints.feature') { tagSelector: '@favorites' }
+    # Step 4c: Get Products with dynamic company IDs and validate relationships
+    * call read('protected-endpoints.feature') { tagSelector: '@products', accessToken: '#(accessToken)', companyIds: '#(companyIds)', companyMap: '#(companyMap)' }
     
-    # Step 4d: Get Products with dynamic company IDs and validate relationships
-    * call read('protected-endpoints.feature') { tagSelector: '@products' }
+    # Step 4d: Get Subscribed Products with shared token
+    * call read('protected-endpoints.feature') { tagSelector: '@favorites', accessToken: '#(accessToken)' }
+    
+    # Step 4e: Add first product to favorites (will use existing state)
+    * call read('protected-endpoints.feature') { tagSelector: '@addToFavorites', accessToken: '#(accessToken)' }
+    
+    # Step 4f: Remove first product from favorites (will use existing state)
+    * call read('protected-endpoints.feature') { tagSelector: '@removeFromFavorites', accessToken: '#(accessToken)' }
