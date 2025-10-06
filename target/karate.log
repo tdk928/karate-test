@@ -1044,3 +1044,1546 @@ classpath:features/main-test-suite.feature:21
   }
 }
  
+2025-10-06 14:41:09.897 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @main
+2025-10-06 14:41:10.731 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:41:10.735 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:41:11.105 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:41:11.106 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:41:11.234 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:41:11.235 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:41:11.360 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:41:11.360 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:41:11.613 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:41:11.614 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:44:52.270 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @main
+2025-10-06 14:44:53.092 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:44:53.095 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:44:53.474 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:44:53.475 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:44:53.601 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:44:53.601 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:44:53.732 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:44:53.732 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:47:10.194 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @main
+2025-10-06 14:47:10.901 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:47:10.904 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:47:11.225 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:47:11.225 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:47:11.345 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:47:11.345 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:47:11.462 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:47:11.463 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:51:09.160 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @main
+2025-10-06 14:51:09.924 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:51:09.926 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:51:10.280 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:51:10.280 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:51:10.467 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:51:10.467 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:51:10.594 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:51:10.595 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:51:10.725 [main] ERROR com.intuit.karate - classpath:features/main-test-suite.feature:42
+* def companyIds = response[*].id
+js failed:
+>>>>
+01: response[*].id
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:9 Expected an operand but found *
+response[*].id
+         ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2238)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2157)
+- com.intuit.karate.core.ScenarioEngine.evalAndCastTo(ScenarioEngine.java:1351)
+
+classpath:features/main-test-suite.feature:42
+2025-10-06 14:51:19.692 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @main
+2025-10-06 14:51:20.408 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:51:20.411 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:51:20.762 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:51:20.762 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:51:20.889 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:51:20.890 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:51:21.011 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:51:21.011 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:51:21.135 [main] INFO  com.intuit.karate - [print] Extracted Company IDs: [
+  3,
+  1,
+  2,
+  9,
+  4,
+  10,
+  6,
+  5,
+  7,
+  8
+]
+ 
+2025-10-06 14:51:52.268 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @main
+2025-10-06 14:51:52.860 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:51:52.862 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:51:53.201 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:51:53.202 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:51:53.322 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:51:53.323 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:51:53.438 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:51:53.438 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:51:53.552 [main] INFO  com.intuit.karate - [print] Extracted Company IDs: [
+  3,
+  1,
+  2,
+  9,
+  4,
+  10,
+  6,
+  5,
+  7,
+  8
+]
+ 
+2025-10-06 14:54:44.653 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @main
+2025-10-06 14:54:45.508 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:54:45.511 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:54:45.874 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:54:45.875 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:54:46.046 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:54:46.047 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:54:46.190 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:54:46.191 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:54:46.323 [main] ERROR com.intuit.karate - classpath:features/main-test-suite.feature:44
+* def companyMap = karate.mapValues(response, function(x) x.name)
+js failed:
+>>>>
+01: karate.mapValues(response, function(x) x.name)
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: invokeMember (mapValues) on com.intuit.karate.core.ScenarioBridge failed due to: Unknown identifier: mapValues
+- <js>.:program(Unnamed:1)
+
+classpath:features/main-test-suite.feature:44
+2025-10-06 14:55:02.882 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @main
+2025-10-06 14:55:03.688 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:55:03.695 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:55:04.027 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:55:04.028 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:55:04.151 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:55:04.151 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:55:04.273 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:55:04.273 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:55:04.400 [main] INFO  com.intuit.karate - [print] Extracted Company IDs: [
+  3,
+  1,
+  2,
+  9,
+  4,
+  10,
+  6,
+  5,
+  7,
+  8
+]
+ 
+2025-10-06 14:55:04.400 [main] INFO  com.intuit.karate - [print] Company Lookup Map: {
+  "3": "Billa",
+  "1": "Kaufland",
+  "2": "Lidl",
+  "9": "Tech Solutions Ltd",
+  "4": "Test Company Ltd",
+  "10": "asdsa",
+  "6": "sadad",
+  "5": "sadad",
+  "7": "sadadasdsa",
+  "8": "sadadasdsa"
+}
+ 
+2025-10-06 14:55:04.451 [main] INFO  com.intuit.karate - [print] Validating data relationships between companies and products... 
+2025-10-06 14:55:04.460 [main] ERROR com.intuit.karate - classpath:features/protected-endpoints.feature:44
+* def validCompanyIds = #(companyIds)
+js failed:
+>>>>
+01: #(companyIds)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:0 Expected an operand but found error
+#(companyIds)
+^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2238)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2157)
+- com.intuit.karate.core.ScenarioEngine.evalAndCastTo(ScenarioEngine.java:1351)
+
+classpath:features/protected-endpoints.feature:44
+2025-10-06 14:55:04.462 [main] ERROR com.intuit.karate - classpath:features/main-test-suite.feature:50
+* call read('protected-endpoints.feature') { tagSelector: '@favorites' }
+js failed:
+>>>>
+01: #(companyIds)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:0 Expected an operand but found error
+#(companyIds)
+^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2238)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2157)
+- com.intuit.karate.core.ScenarioEngine.evalAndCastTo(ScenarioEngine.java:1351)
+
+classpath:features/protected-endpoints.feature:44
+classpath:features/main-test-suite.feature:50
+2025-10-06 14:55:26.768 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @main
+2025-10-06 14:55:27.475 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:55:27.478 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:55:27.817 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:55:27.818 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:55:27.942 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:55:27.942 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:55:28.062 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:55:28.063 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:55:28.200 [main] INFO  com.intuit.karate - [print] Extracted Company IDs: [
+  3,
+  1,
+  2,
+  9,
+  4,
+  10,
+  6,
+  5,
+  7,
+  8
+]
+ 
+2025-10-06 14:55:28.201 [main] INFO  com.intuit.karate - [print] Company Lookup Map: {
+  "3": "Billa",
+  "1": "Kaufland",
+  "2": "Lidl",
+  "9": "Tech Solutions Ltd",
+  "4": "Test Company Ltd",
+  "10": "asdsa",
+  "6": "sadad",
+  "5": "sadad",
+  "7": "sadadasdsa",
+  "8": "sadadasdsa"
+}
+ 
+2025-10-06 14:55:28.244 [main] INFO  com.intuit.karate - [print] Validating data relationships between companies and products... 
+2025-10-06 14:55:28.254 [main] ERROR com.intuit.karate - classpath:features/protected-endpoints.feature:44
+* def invalidCompanyIds = karate.filter(products, function(x) !karate.contains(companyIds, x.companyId))
+js failed:
+>>>>
+01: karate.filter(products, function(x) !karate.contains(companyIds, x.companyId))
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: invokeMember (contains) on com.intuit.karate.core.ScenarioBridge failed due to: Unknown identifier: contains
+- <js>.:anonymous(Unnamed:1)
+
+classpath:features/protected-endpoints.feature:44
+2025-10-06 14:55:28.256 [main] ERROR com.intuit.karate - classpath:features/main-test-suite.feature:50
+* call read('protected-endpoints.feature') { tagSelector: '@favorites' }
+js failed:
+>>>>
+01: karate.filter(products, function(x) !karate.contains(companyIds, x.companyId))
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: invokeMember (contains) on com.intuit.karate.core.ScenarioBridge failed due to: Unknown identifier: contains
+- <js>.:anonymous(Unnamed:1)
+
+classpath:features/protected-endpoints.feature:44
+classpath:features/main-test-suite.feature:50
+2025-10-06 14:55:46.005 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @main
+2025-10-06 14:55:46.774 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:55:46.780 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:55:47.119 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:55:47.120 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:55:47.242 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:55:47.243 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:55:47.365 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:55:47.366 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:55:47.494 [main] INFO  com.intuit.karate - [print] Extracted Company IDs: [
+  3,
+  1,
+  2,
+  9,
+  4,
+  10,
+  6,
+  5,
+  7,
+  8
+]
+ 
+2025-10-06 14:55:47.495 [main] INFO  com.intuit.karate - [print] Company Lookup Map: {
+  "3": "Billa",
+  "1": "Kaufland",
+  "2": "Lidl",
+  "9": "Tech Solutions Ltd",
+  "4": "Test Company Ltd",
+  "10": "asdsa",
+  "6": "sadad",
+  "5": "sadad",
+  "7": "sadadasdsa",
+  "8": "sadadasdsa"
+}
+ 
+2025-10-06 14:55:47.540 [main] INFO  com.intuit.karate - [print] Validating data relationships between companies and products... 
+2025-10-06 14:55:47.557 [main] INFO  com.intuit.karate - [print] ✅ All product companyIds exist in companies list 
+2025-10-06 14:55:47.560 [main] INFO  com.intuit.karate - [print] ✅ All product companyNames match companies list 
+2025-10-06 14:55:47.561 [main] INFO  com.intuit.karate - [print] 🎉 Data relationship validation passed! 
+2025-10-06 14:55:47.604 [main] INFO  com.intuit.karate - [print] Validating data relationships between companies and products... 
+2025-10-06 14:55:47.606 [main] INFO  com.intuit.karate - [print] ✅ All product companyIds exist in companies list 
+2025-10-06 14:55:47.607 [main] INFO  com.intuit.karate - [print] ✅ All product companyNames match companies list 
+2025-10-06 14:55:47.607 [main] INFO  com.intuit.karate - [print] 🎉 Data relationship validation passed! 
+2025-10-06 14:56:12.234 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @main
+2025-10-06 14:56:12.909 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:56:12.912 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:56:13.234 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:56:13.234 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:56:13.353 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:56:13.354 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:56:13.471 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:56:13.472 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:56:13.597 [main] INFO  com.intuit.karate - [print] Extracted Company IDs: [
+  3,
+  1,
+  2,
+  9,
+  4,
+  10,
+  6,
+  5,
+  7,
+  8
+]
+ 
+2025-10-06 14:56:13.598 [main] INFO  com.intuit.karate - [print] Company Lookup Map: {
+  "3": "Billa",
+  "1": "Kaufland",
+  "2": "Lidl",
+  "9": "Tech Solutions Ltd",
+  "4": "Test Company Ltd",
+  "10": "asdsa",
+  "6": "sadad",
+  "5": "sadad",
+  "7": "sadadasdsa",
+  "8": "sadadasdsa"
+}
+ 
+2025-10-06 14:56:13.641 [main] INFO  com.intuit.karate - [print] Validating data relationships between companies and products... 
+2025-10-06 14:56:13.654 [main] INFO  com.intuit.karate - [print] ✅ All product companyIds exist in companies list 
+2025-10-06 14:56:13.657 [main] INFO  com.intuit.karate - [print] ✅ All product companyNames match companies list 
+2025-10-06 14:56:13.657 [main] INFO  com.intuit.karate - [print] 🎉 Data relationship validation passed! 
+2025-10-06 14:56:13.744 [main] INFO  com.intuit.karate - [print] Validating data relationships between companies and products... 
+2025-10-06 14:56:13.747 [main] INFO  com.intuit.karate - [print] ✅ All product companyIds exist in companies list 
+2025-10-06 14:56:13.750 [main] INFO  com.intuit.karate - [print] ✅ All product companyNames match companies list 
+2025-10-06 14:56:13.750 [main] INFO  com.intuit.karate - [print] 🎉 Data relationship validation passed! 
+2025-10-06 14:58:17.687 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @main
+2025-10-06 14:58:18.376 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:58:18.379 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:58:18.703 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:58:18.704 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:58:18.825 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:58:18.826 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:58:18.948 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:58:18.949 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:58:19.077 [main] INFO  com.intuit.karate - [print] Extracted Company IDs: [
+  3,
+  1,
+  2,
+  9,
+  4,
+  10,
+  6,
+  5,
+  7,
+  8
+]
+ 
+2025-10-06 14:58:19.078 [main] INFO  com.intuit.karate - [print] Company Lookup Map: {
+  "3": "Billa",
+  "1": "Kaufland",
+  "2": "Lidl",
+  "9": "Tech Solutions Ltd",
+  "4": "Test Company Ltd",
+  "10": "asdsa",
+  "6": "sadad",
+  "5": "sadad",
+  "7": "sadadasdsa",
+  "8": "sadadasdsa"
+}
+ 
+2025-10-06 14:58:19.116 [main] INFO  com.intuit.karate - [print] Validating data relationships between companies and products... 
+2025-10-06 14:58:19.131 [main] INFO  com.intuit.karate - [print] ✅ All product companyIds exist in companies list 
+2025-10-06 14:58:19.140 [main] INFO  com.intuit.karate - [print] ✅ All product companyNames match companies list 
+2025-10-06 14:58:19.140 [main] INFO  com.intuit.karate - [print] 🎉 Data relationship validation passed! 
+2025-10-06 14:58:19.163 [main] INFO  com.intuit.karate - [print] Extracted Company IDs: [
+  3,
+  1,
+  2,
+  9,
+  4,
+  10,
+  6,
+  5,
+  7,
+  8
+]
+ 
+2025-10-06 14:58:19.164 [main] INFO  com.intuit.karate - [print] Company Lookup Map: {
+  "3": "Billa",
+  "1": "Kaufland",
+  "2": "Lidl",
+  "9": "Tech Solutions Ltd",
+  "4": "Test Company Ltd",
+  "10": "asdsa",
+  "6": "sadad",
+  "5": "sadad",
+  "7": "sadadasdsa",
+  "8": "sadadasdsa"
+}
+ 
+2025-10-06 14:58:19.195 [main] INFO  com.intuit.karate - [print] Validating data relationships between companies and products... 
+2025-10-06 14:58:19.196 [main] INFO  com.intuit.karate - [print] ✅ All product companyIds exist in companies list 
+2025-10-06 14:58:19.198 [main] INFO  com.intuit.karate - [print] ✅ All product companyNames match companies list 
+2025-10-06 14:58:19.198 [main] INFO  com.intuit.karate - [print] 🎉 Data relationship validation passed! 
+2025-10-06 14:58:19.215 [main] INFO  com.intuit.karate - [print] Extracted Company IDs: [
+  3,
+  1,
+  2,
+  9,
+  4,
+  10,
+  6,
+  5,
+  7,
+  8
+]
+ 
+2025-10-06 14:58:19.215 [main] INFO  com.intuit.karate - [print] Company Lookup Map: {
+  "3": "Billa",
+  "1": "Kaufland",
+  "2": "Lidl",
+  "9": "Tech Solutions Ltd",
+  "4": "Test Company Ltd",
+  "10": "asdsa",
+  "6": "sadad",
+  "5": "sadad",
+  "7": "sadadasdsa",
+  "8": "sadadasdsa"
+}
+ 
+2025-10-06 14:58:19.246 [main] INFO  com.intuit.karate - [print] Validating data relationships between companies and products... 
+2025-10-06 14:58:19.248 [main] INFO  com.intuit.karate - [print] ✅ All product companyIds exist in companies list 
+2025-10-06 14:58:19.249 [main] INFO  com.intuit.karate - [print] ✅ All product companyNames match companies list 
+2025-10-06 14:58:19.249 [main] INFO  com.intuit.karate - [print] 🎉 Data relationship validation passed! 
+2025-10-06 14:59:38.231 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @main
+2025-10-06 14:59:38.855 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:59:38.858 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:59:39.215 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:59:39.216 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:59:39.338 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:59:39.339 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:59:39.459 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:59:39.459 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:59:39.586 [main] INFO  com.intuit.karate - [print] Extracted Company IDs: [
+  3,
+  1,
+  2,
+  9,
+  4,
+  10,
+  6,
+  5,
+  7,
+  8
+]
+ 
+2025-10-06 14:59:39.587 [main] INFO  com.intuit.karate - [print] Company Lookup Map: {
+  "3": "Billa",
+  "1": "Kaufland",
+  "2": "Lidl",
+  "9": "Tech Solutions Ltd",
+  "4": "Test Company Ltd",
+  "10": "asdsa",
+  "6": "sadad",
+  "5": "sadad",
+  "7": "sadadasdsa",
+  "8": "sadadasdsa"
+}
+ 
+2025-10-06 14:59:39.626 [main] INFO  com.intuit.karate - [print] Validating data relationships between companies and products... 
+2025-10-06 14:59:39.639 [main] INFO  com.intuit.karate - [print] ✅ All product companyIds exist in companies list 
+2025-10-06 14:59:39.642 [main] INFO  com.intuit.karate - [print] ✅ All product companyNames match companies list 
+2025-10-06 14:59:39.643 [main] INFO  com.intuit.karate - [print] 🎉 Data relationship validation passed! 
+2025-10-06 14:59:39.664 [main] INFO  com.intuit.karate - [print] Extracted Company IDs: [
+  3,
+  1,
+  2,
+  9,
+  4,
+  10,
+  6,
+  5,
+  7,
+  8
+]
+ 
+2025-10-06 14:59:39.665 [main] INFO  com.intuit.karate - [print] Company Lookup Map: {
+  "3": "Billa",
+  "1": "Kaufland",
+  "2": "Lidl",
+  "9": "Tech Solutions Ltd",
+  "4": "Test Company Ltd",
+  "10": "asdsa",
+  "6": "sadad",
+  "5": "sadad",
+  "7": "sadadasdsa",
+  "8": "sadadasdsa"
+}
+ 
+2025-10-06 14:59:39.697 [main] INFO  com.intuit.karate - [print] Validating data relationships between companies and products... 
+2025-10-06 14:59:39.698 [main] INFO  com.intuit.karate - [print] ✅ All product companyIds exist in companies list 
+2025-10-06 14:59:39.699 [main] INFO  com.intuit.karate - [print] ✅ All product companyNames match companies list 
+2025-10-06 14:59:39.699 [main] INFO  com.intuit.karate - [print] 🎉 Data relationship validation passed! 
+2025-10-06 14:59:39.715 [main] INFO  com.intuit.karate - [print] Extracted Company IDs: [
+  3,
+  1,
+  2,
+  9,
+  4,
+  10,
+  6,
+  5,
+  7,
+  8
+]
+ 
+2025-10-06 14:59:39.716 [main] INFO  com.intuit.karate - [print] Company Lookup Map: {
+  "3": "Billa",
+  "1": "Kaufland",
+  "2": "Lidl",
+  "9": "Tech Solutions Ltd",
+  "4": "Test Company Ltd",
+  "10": "asdsa",
+  "6": "sadad",
+  "5": "sadad",
+  "7": "sadadasdsa",
+  "8": "sadadasdsa"
+}
+ 
+2025-10-06 14:59:39.748 [main] INFO  com.intuit.karate - [print] Validating data relationships between companies and products... 
+2025-10-06 14:59:39.749 [main] INFO  com.intuit.karate - [print] ✅ All product companyIds exist in companies list 
+2025-10-06 14:59:39.750 [main] INFO  com.intuit.karate - [print] ✅ All product companyNames match companies list 
+2025-10-06 14:59:39.750 [main] INFO  com.intuit.karate - [print] 🎉 Data relationship validation passed! 

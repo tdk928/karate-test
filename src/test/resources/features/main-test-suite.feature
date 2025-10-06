@@ -15,8 +15,8 @@ Feature: Main Test Suite
   Scenario: Step 3 - Login with empty credentials
     * call read('auth.feature') { tagSelector: '@missing' }
 
-  Scenario: Step 4 - Login and Get Companies (chained)
-    # Step 4a: Login first
+  Scenario: Step 4 - Login Once and Test All Protected Endpoints
+    # Step 4a: Login once to get access token
     Given path 'gateway/auth/login'
     And request
     """
@@ -31,9 +31,11 @@ Feature: Main Test Suite
     And match response.accessToken != null
     * def accessToken = response.accessToken
     
-    # Step 4b: Get companies with authorization header
-    Given path 'gateway/companies/get-all-companies'
-    And header Authorization = 'Bearer ' + accessToken
-    When method GET
-    Then status 200
-    And match response != null
+    # Step 4b: Get Companies and extract data for other endpoints
+    * call read('protected-endpoints.feature') { tagSelector: '@companies' }
+    
+    # Step 4c: Get Subscribed Products with shared token
+    * call read('protected-endpoints.feature') { tagSelector: '@favorites' }
+    
+    # Step 4d: Get Products with dynamic company IDs and validate relationships
+    * call read('protected-endpoints.feature') { tagSelector: '@products' }

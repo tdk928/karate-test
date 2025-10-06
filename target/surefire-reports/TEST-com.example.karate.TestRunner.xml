@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.karate.TestRunner" time="1.929" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.karate.TestRunner" time="2.079" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BG"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/teodorkalev/Desktop/karate/target/surefire/surefirebooter-20251006143650609_3.jar /Users/teodorkalev/Desktop/karate/target/surefire 2025-10-06T14-36-50_572-jvmRun1 surefire-20251006143650609_1tmp surefire_0-20251006143650609_2tmp"/>
+    <property name="sun.java.command" value="/Users/teodorkalev/Desktop/karate/target/surefire/surefirebooter-20251006145937823_3.jar /Users/teodorkalev/Desktop/karate/target/surefire 2025-10-06T14-59-37_789-jvmRun1 surefire-20251006145937823_1tmp surefire_0-20251006145937823_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/teodorkalev/Desktop/karate/target/test-classes:/Users/teodorkalev/Desktop/karate/target/classes:/Users/teodorkalev/.m2/repository/com/intuit/karate/karate-core/1.4.1/karate-core-1.4.1.jar:/Users/teodorkalev/.m2/repository/org/graalvm/js/js-scriptengine/22.3.3/js-scriptengine-22.3.3.jar:/Users/teodorkalev/.m2/repository/org/graalvm/sdk/graal-sdk/22.3.3/graal-sdk-22.3.3.jar:/Users/teodorkalev/.m2/repository/org/graalvm/js/js/22.3.3/js-22.3.3.jar:/Users/teodorkalev/.m2/repository/org/graalvm/regex/regex/22.3.3/regex-22.3.3.jar:/Users/teodorkalev/.m2/repository/org/graalvm/truffle/truffle-api/22.3.3/truffle-api-22.3.3.jar:/Users/teodorkalev/.m2/repository/com/ibm/icu/icu4j/71.1/icu4j-71.1.jar:/Users/teodorkalev/.m2/repository/org/thymeleaf/thymeleaf/3.1.2.RELEASE/thymeleaf-3.1.2.RELEASE.jar:/Users/teodorkalev/.m2/repository/ognl/ognl/3.3.4/ognl-3.3.4.jar:/Users/teodorkalev/.m2/repository/org/javassist/javassist/3.29.0-GA/javassist-3.29.0-GA.jar:/Users/teodorkalev/.m2/repository/org/attoparser/attoparser/2.0.7.RELEASE/attoparser-2.0.7.RELEASE.jar:/Users/teodorkalev/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar:/Users/teodorkalev/.m2/repository/com/linecorp/armeria/armeria/1.25.2/armeria-1.25.2.jar:/Users/teodorkalev/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.2/jackson-datatype-jdk8-2.15.2.jar:/Users/teodorkalev/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.2/jackson-datatype-jsr310-2.15.2.jar:/Users/teodorkalev/.m2/repository/io/micrometer/micrometer-core/1.11.3/micrometer-core-1.11.3.jar:/Users/teodorkalev/.m2/repository/io/micrometer/micrometer-commons/1.11.3/micrometer-commons-1.11.3.jar:/Users/teodorkalev/.m2/repository/io/micrometer/micrometer-observation/1.11.3/micrometer-observation-1.11.3.jar:/Users/teodorkalev/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar:/Users/teodorkalev/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-transport/4.1.96.Final/netty-transport-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-common/4.1.96.Final/netty-common-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-buffer/4.1.96.Final/netty-buffer-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-resolver/4.1.96.Final/netty-resolver-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-codec-haproxy/4.1.96.Final/netty-codec-haproxy-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-codec/4.1.96.Final/netty-codec-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-codec-http2/4.1.96.Final/netty-codec-http2-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-handler/4.1.96.Final/netty-handler-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-codec-http/4.1.96.Final/netty-codec-http-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-resolver-dns/4.1.96.Final/netty-resolver-dns-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-codec-dns/4.1.96.Final/netty-codec-dns-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/teodorkalev/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-handler-proxy/4.1.96.Final/netty-handler-proxy-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-codec-socks/4.1.96.Final/netty-codec-socks-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final-linux-x86_64.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-transport-native-epoll/4.1.96.Final/netty-transport-native-epoll-4.1.96.Final-linux-x86_64.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.96.Final/netty-transport-classes-epoll-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final-linux-aarch_64.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-transport-native-epoll/4.1.96.Final/netty-transport-native-epoll-4.1.96.Final-linux-aarch_64.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final-osx-x86_64.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.96.Final/netty-transport-native-kqueue-4.1.96.Final-osx-x86_64.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.96.Final/netty-transport-classes-kqueue-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.96.Final/netty-resolver-dns-native-macos-4.1.96.Final-osx-x86_64.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-resolver-dns-classes-macos/4.1.96.Final/netty-resolver-dns-classes-macos-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final-osx-aarch_64.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.96.Final/netty-transport-native-kqueue-4.1.96.Final-osx-aarch_64.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.96.Final/netty-resolver-dns-native-macos-4.1.96.Final-osx-aarch_64.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-linux-x86_64.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-tcnative-classes/2.0.61.Final/netty-tcnative-classes-2.0.61.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-linux-aarch_64.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-osx-x86_64.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-osx-aarch_64.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-windows-x86_64.jar:/Users/teodorkalev/.m2/repository/com/aayushatharva/brotli4j/brotli4j/1.12.0/brotli4j-1.12.0.jar:/Users/teodorkalev/.m2/repository/com/aayushatharva/brotli4j/service/1.12.0/service-1.12.0.jar:/Users/teodorkalev/.m2/repository/com/aayushatharva/brotli4j/native-osx-aarch64/1.12.0/native-osx-aarch64-1.12.0.jar:/Users/teodorkalev/.m2/repository/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar:/Users/teodorkalev/.m2/repository/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar:/Users/teodorkalev/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/Users/teodorkalev/.m2/repository/org/slf4j/jcl-over-slf4j/2.0.9/jcl-over-slf4j-2.0.9.jar:/Users/teodorkalev/.m2/repository/org/antlr/antlr4-runtime/4.11.1/antlr4-runtime-4.11.1.jar:/Users/teodorkalev/.m2/repository/com/jayway/jsonpath/json-path/2.8.0/json-path-2.8.0.jar:/Users/teodorkalev/.m2/repository/net/minidev/json-smart/2.4.10/json-smart-2.4.10.jar:/Users/teodorkalev/.m2/repository/net/minidev/accessors-smart/2.4.9/accessors-smart-2.4.9.jar:/Users/teodorkalev/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/Users/teodorkalev/.m2/repository/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar:/Users/teodorkalev/.m2/repository/de/siegmar/fastcsv/2.2.1/fastcsv-2.2.1.jar:/Users/teodorkalev/.m2/repository/info/picocli/picocli/4.7.1/picocli-4.7.1.jar:/Users/teodorkalev/.m2/repository/io/github/classgraph/classgraph/4.8.160/classgraph-4.8.160.jar:/Users/teodorkalev/.m2/repository/io/github/t12y/resemble/1.0.2/resemble-1.0.2.jar:/Users/teodorkalev/.m2/repository/io/github/t12y/ssim/1.0.0/ssim-1.0.0.jar:/Users/teodorkalev/.m2/repository/com/intuit/karate/karate-junit5/1.4.1/karate-junit5-1.4.1.jar:/Users/teodorkalev/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/teodorkalev/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/teodorkalev/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/teodorkalev/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/teodorkalev/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/teodorkalev/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/Users/teodorkalev/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.2/junit-jupiter-5.9.2.jar:/Users/teodorkalev/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.2/junit-jupiter-params-5.9.2.jar:/Users/teodorkalev/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/teodorkalev/.m2/repository/ch/qos/logback/logback-classic/1.2.12/logback-classic-1.2.12.jar:/Users/teodorkalev/.m2/repository/ch/qos/logback/logback-core/1.2.12/logback-core-1.2.12.jar:/Users/teodorkalev/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar:/Users/teodorkalev/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:/Users/teodorkalev/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar:"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="karate.options" value="--tags @main"/>
-    <property name="surefire.real.class.path" value="/Users/teodorkalev/Desktop/karate/target/surefire/surefirebooter-20251006143650609_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/teodorkalev/Desktop/karate/target/surefire/surefirebooter-20251006145937823_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17.0.16+0"/>
@@ -58,38 +58,38 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="[1:9] Step 1 - Login with valid EGN format" classname="features/main-test-suite" time="0.375">
-    <system-out><![CDATA[14:36:50,886 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
-14:36:50,886 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/Users/teodorkalev/Desktop/karate/target/test-classes/logback.xml]
-14:36:50,908 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
-14:36:50,908 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
-14:36:50,910 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
-14:36:50,912 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
-14:36:50,934 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
-14:36:50,935 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
-14:36:50,939 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@429075478 - No compression will be used
-14:36:50,939 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@429075478 - Will use the pattern target/karate.%d{yyyy-MM-dd}.%i.log for the active file
-14:36:50,940 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@73eb439a - The date pattern is 'yyyy-MM-dd' from file name pattern 'target/karate.%d{yyyy-MM-dd}.%i.log'.
-14:36:50,940 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@73eb439a - Roll-over at midnight.
-14:36:50,945 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@73eb439a - Setting initial period to Mon Oct 06 14:35:08 EEST 2025
-14:36:50,945 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@73eb439a - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
-14:36:50,945 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@73eb439a - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
-14:36:50,946 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
-14:36:50,947 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: target/karate.log
-14:36:50,947 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [target/karate.log]
-14:36:50,947 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.intuit] to INFO
-14:36:50,947 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [com.intuit] to false
-14:36:50,947 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[com.intuit]
-14:36:50,947 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[com.intuit]
-14:36:50,947 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
-14:36:50,947 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
-14:36:50,947 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
-14:36:50,947 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
-14:36:50,947 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@514646ef - Registering current configuration as safe fallback point
+  <testcase name="[1:9] Step 1 - Login with valid EGN format" classname="features/main-test-suite" time="0.379">
+    <system-out><![CDATA[14:59:38,119 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+14:59:38,120 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/Users/teodorkalev/Desktop/karate/target/test-classes/logback.xml]
+14:59:38,141 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+14:59:38,141 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+14:59:38,143 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+14:59:38,144 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+14:59:38,166 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+14:59:38,167 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+14:59:38,171 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@429075478 - No compression will be used
+14:59:38,172 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@429075478 - Will use the pattern target/karate.%d{yyyy-MM-dd}.%i.log for the active file
+14:59:38,172 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@73eb439a - The date pattern is 'yyyy-MM-dd' from file name pattern 'target/karate.%d{yyyy-MM-dd}.%i.log'.
+14:59:38,172 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@73eb439a - Roll-over at midnight.
+14:59:38,178 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@73eb439a - Setting initial period to Mon Oct 06 14:58:19 EEST 2025
+14:59:38,178 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@73eb439a - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+14:59:38,178 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@73eb439a - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+14:59:38,179 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+14:59:38,179 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: target/karate.log
+14:59:38,179 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [target/karate.log]
+14:59:38,180 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.intuit] to INFO
+14:59:38,180 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [com.intuit] to false
+14:59:38,180 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[com.intuit]
+14:59:38,180 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[com.intuit]
+14:59:38,180 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+14:59:38,180 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+14:59:38,180 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+14:59:38,180 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+14:59:38,180 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@514646ef - Registering current configuration as safe fallback point
 
-14:36:51.006 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @main
-14:36:51.738 [main] INFO  com.intuit.karate - karate.env system property was: null 
-14:36:51.741 [main] INFO  com.intuit.karate - config: {
+14:59:38.231 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @main
+14:59:38.855 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:59:38.858 [main] INFO  com.intuit.karate - config: {
   "env": "dev",
   "baseUrl": "http://localhost:8082",
   "timeout": 5000,
@@ -111,9 +111,9 @@
  
 ]]></system-out>
   </testcase>
-  <testcase name="[2:12] Step 2 - Login with invalid EGN length" classname="features/main-test-suite" time="0.133">
-    <system-out><![CDATA[14:36:52.086 [main] INFO  com.intuit.karate - karate.env system property was: null 
-14:36:52.088 [main] INFO  com.intuit.karate - config: {
+  <testcase name="[2:12] Step 2 - Login with invalid EGN length" classname="features/main-test-suite" time="0.125">
+    <system-out><![CDATA[14:59:39.215 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:59:39.216 [main] INFO  com.intuit.karate - config: {
   "env": "dev",
   "baseUrl": "http://localhost:8082",
   "timeout": 5000,
@@ -135,9 +135,9 @@
  
 ]]></system-out>
   </testcase>
-  <testcase name="[3:15] Step 3 - Login with empty credentials" classname="features/main-test-suite" time="0.128">
-    <system-out><![CDATA[14:36:52.217 [main] INFO  com.intuit.karate - karate.env system property was: null 
-14:36:52.217 [main] INFO  com.intuit.karate - config: {
+  <testcase name="[3:15] Step 3 - Login with empty credentials" classname="features/main-test-suite" time="0.121">
+    <system-out><![CDATA[14:59:39.338 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:59:39.339 [main] INFO  com.intuit.karate - config: {
   "env": "dev",
   "baseUrl": "http://localhost:8082",
   "timeout": 5000,
@@ -159,9 +159,9 @@
  
 ]]></system-out>
   </testcase>
-  <testcase name="[4:18] Step 4 - Login and Get Companies (chained)" classname="features/main-test-suite" time="0.444">
-    <system-out><![CDATA[14:36:52.346 [main] INFO  com.intuit.karate - karate.env system property was: null 
-14:36:52.347 [main] INFO  com.intuit.karate - config: {
+  <testcase name="[4:18] Step 4 - Login Once and Test All Protected Endpoints" classname="features/main-test-suite" time="0.713">
+    <system-out><![CDATA[14:59:39.459 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:59:39.459 [main] INFO  com.intuit.karate - config: {
   "env": "dev",
   "baseUrl": "http://localhost:8082",
   "timeout": 5000,
@@ -181,9 +181,99 @@
   }
 }
  
+14:59:39.586 [main] INFO  com.intuit.karate - [print] Extracted Company IDs: [
+  3,
+  1,
+  2,
+  9,
+  4,
+  10,
+  6,
+  5,
+  7,
+  8
+]
+ 
+14:59:39.587 [main] INFO  com.intuit.karate - [print] Company Lookup Map: {
+  "3": "Billa",
+  "1": "Kaufland",
+  "2": "Lidl",
+  "9": "Tech Solutions Ltd",
+  "4": "Test Company Ltd",
+  "10": "asdsa",
+  "6": "sadad",
+  "5": "sadad",
+  "7": "sadadasdsa",
+  "8": "sadadasdsa"
+}
+ 
+14:59:39.626 [main] INFO  com.intuit.karate - [print] Validating data relationships between companies and products... 
+14:59:39.639 [main] INFO  com.intuit.karate - [print] ✅ All product companyIds exist in companies list 
+14:59:39.642 [main] INFO  com.intuit.karate - [print] ✅ All product companyNames match companies list 
+14:59:39.643 [main] INFO  com.intuit.karate - [print] 🎉 Data relationship validation passed! 
+14:59:39.664 [main] INFO  com.intuit.karate - [print] Extracted Company IDs: [
+  3,
+  1,
+  2,
+  9,
+  4,
+  10,
+  6,
+  5,
+  7,
+  8
+]
+ 
+14:59:39.665 [main] INFO  com.intuit.karate - [print] Company Lookup Map: {
+  "3": "Billa",
+  "1": "Kaufland",
+  "2": "Lidl",
+  "9": "Tech Solutions Ltd",
+  "4": "Test Company Ltd",
+  "10": "asdsa",
+  "6": "sadad",
+  "5": "sadad",
+  "7": "sadadasdsa",
+  "8": "sadadasdsa"
+}
+ 
+14:59:39.697 [main] INFO  com.intuit.karate - [print] Validating data relationships between companies and products... 
+14:59:39.698 [main] INFO  com.intuit.karate - [print] ✅ All product companyIds exist in companies list 
+14:59:39.699 [main] INFO  com.intuit.karate - [print] ✅ All product companyNames match companies list 
+14:59:39.699 [main] INFO  com.intuit.karate - [print] 🎉 Data relationship validation passed! 
+14:59:39.715 [main] INFO  com.intuit.karate - [print] Extracted Company IDs: [
+  3,
+  1,
+  2,
+  9,
+  4,
+  10,
+  6,
+  5,
+  7,
+  8
+]
+ 
+14:59:39.716 [main] INFO  com.intuit.karate - [print] Company Lookup Map: {
+  "3": "Billa",
+  "1": "Kaufland",
+  "2": "Lidl",
+  "9": "Tech Solutions Ltd",
+  "4": "Test Company Ltd",
+  "10": "asdsa",
+  "6": "sadad",
+  "5": "sadad",
+  "7": "sadadasdsa",
+  "8": "sadadasdsa"
+}
+ 
+14:59:39.748 [main] INFO  com.intuit.karate - [print] Validating data relationships between companies and products... 
+14:59:39.749 [main] INFO  com.intuit.karate - [print] ✅ All product companyIds exist in companies list 
+14:59:39.750 [main] INFO  com.intuit.karate - [print] ✅ All product companyNames match companies list 
+14:59:39.750 [main] INFO  com.intuit.karate - [print] 🎉 Data relationship validation passed! 
 ---------------------------------------------------------
 feature: classpath:features/main-test-suite.feature
-scenarios:  4 | passed:  4 | failed:  0 | time: 0.6696
+scenarios:  4 | passed:  4 | failed:  0 | time: 0.8537
 ---------------------------------------------------------
 
 ]]></system-out>
