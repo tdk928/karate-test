@@ -1,0 +1,200 @@
+2025-10-06 14:21:14.652 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags ~@ignore
+2025-10-06 14:21:15.320 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:21:15.323 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:21:15.625 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:21:15.626 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:21:15.637 [main] ERROR com.intuit.karate - classpath:features/auth.feature:37
+And match response.errorMessage contains "EGNOrEIK must be 8 or 10 characters"
+match failed: CONTAINS
+  $ | actual does not contain expected (STRING:STRING)
+  'EGNOrEIK must be 9 or 10 characters'
+  'EGNOrEIK must be 8 or 10 characters'
+
+classpath:features/auth.feature:37
+2025-10-06 14:21:15.646 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:21:15.647 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:21:30.368 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @login
+2025-10-06 14:21:31.005 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:21:31.008 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:21:31.308 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:21:31.309 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:21:31.323 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:21:31.323 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:21:48.410 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags ~@ignore
+2025-10-06 14:21:49.084 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:21:49.086 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:21:49.375 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:21:49.375 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:21:49.388 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:21:49.389 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:21:56.988 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags ~@ignore
+2025-10-06 14:21:57.647 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:21:57.649 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:21:57.956 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:21:57.957 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:21:57.967 [main] ERROR com.intuit.karate - classpath:features/auth.feature:37
+And match response.errorMessage contains "EGNOrEIK must be 8 or 10 characters"
+match failed: CONTAINS
+  $ | actual does not contain expected (STRING:STRING)
+  'EGNOrEIK must be 9 or 10 characters'
+  'EGNOrEIK must be 8 or 10 characters'
+
+classpath:features/auth.feature:37
+2025-10-06 14:21:57.976 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:21:57.976 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
