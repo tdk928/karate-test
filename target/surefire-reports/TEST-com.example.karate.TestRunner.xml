@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.karate.TestRunner" time="1.474" tests="3" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.karate.TestRunner" time="1.929" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BG"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/teodorkalev/Desktop/karate/target/surefire/surefirebooter-20251006142156619_3.jar /Users/teodorkalev/Desktop/karate/target/surefire 2025-10-06T14-21-56_581-jvmRun1 surefire-20251006142156619_1tmp surefire_0-20251006142156619_2tmp"/>
+    <property name="sun.java.command" value="/Users/teodorkalev/Desktop/karate/target/surefire/surefirebooter-20251006143650609_3.jar /Users/teodorkalev/Desktop/karate/target/surefire 2025-10-06T14-36-50_572-jvmRun1 surefire-20251006143650609_1tmp surefire_0-20251006143650609_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/teodorkalev/Desktop/karate/target/test-classes:/Users/teodorkalev/Desktop/karate/target/classes:/Users/teodorkalev/.m2/repository/com/intuit/karate/karate-core/1.4.1/karate-core-1.4.1.jar:/Users/teodorkalev/.m2/repository/org/graalvm/js/js-scriptengine/22.3.3/js-scriptengine-22.3.3.jar:/Users/teodorkalev/.m2/repository/org/graalvm/sdk/graal-sdk/22.3.3/graal-sdk-22.3.3.jar:/Users/teodorkalev/.m2/repository/org/graalvm/js/js/22.3.3/js-22.3.3.jar:/Users/teodorkalev/.m2/repository/org/graalvm/regex/regex/22.3.3/regex-22.3.3.jar:/Users/teodorkalev/.m2/repository/org/graalvm/truffle/truffle-api/22.3.3/truffle-api-22.3.3.jar:/Users/teodorkalev/.m2/repository/com/ibm/icu/icu4j/71.1/icu4j-71.1.jar:/Users/teodorkalev/.m2/repository/org/thymeleaf/thymeleaf/3.1.2.RELEASE/thymeleaf-3.1.2.RELEASE.jar:/Users/teodorkalev/.m2/repository/ognl/ognl/3.3.4/ognl-3.3.4.jar:/Users/teodorkalev/.m2/repository/org/javassist/javassist/3.29.0-GA/javassist-3.29.0-GA.jar:/Users/teodorkalev/.m2/repository/org/attoparser/attoparser/2.0.7.RELEASE/attoparser-2.0.7.RELEASE.jar:/Users/teodorkalev/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar:/Users/teodorkalev/.m2/repository/com/linecorp/armeria/armeria/1.25.2/armeria-1.25.2.jar:/Users/teodorkalev/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.2/jackson-datatype-jdk8-2.15.2.jar:/Users/teodorkalev/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.2/jackson-datatype-jsr310-2.15.2.jar:/Users/teodorkalev/.m2/repository/io/micrometer/micrometer-core/1.11.3/micrometer-core-1.11.3.jar:/Users/teodorkalev/.m2/repository/io/micrometer/micrometer-commons/1.11.3/micrometer-commons-1.11.3.jar:/Users/teodorkalev/.m2/repository/io/micrometer/micrometer-observation/1.11.3/micrometer-observation-1.11.3.jar:/Users/teodorkalev/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar:/Users/teodorkalev/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-transport/4.1.96.Final/netty-transport-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-common/4.1.96.Final/netty-common-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-buffer/4.1.96.Final/netty-buffer-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-resolver/4.1.96.Final/netty-resolver-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-codec-haproxy/4.1.96.Final/netty-codec-haproxy-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-codec/4.1.96.Final/netty-codec-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-codec-http2/4.1.96.Final/netty-codec-http2-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-handler/4.1.96.Final/netty-handler-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-codec-http/4.1.96.Final/netty-codec-http-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-resolver-dns/4.1.96.Final/netty-resolver-dns-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-codec-dns/4.1.96.Final/netty-codec-dns-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/teodorkalev/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-handler-proxy/4.1.96.Final/netty-handler-proxy-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-codec-socks/4.1.96.Final/netty-codec-socks-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final-linux-x86_64.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-transport-native-epoll/4.1.96.Final/netty-transport-native-epoll-4.1.96.Final-linux-x86_64.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.96.Final/netty-transport-classes-epoll-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final-linux-aarch_64.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-transport-native-epoll/4.1.96.Final/netty-transport-native-epoll-4.1.96.Final-linux-aarch_64.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final-osx-x86_64.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.96.Final/netty-transport-native-kqueue-4.1.96.Final-osx-x86_64.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.96.Final/netty-transport-classes-kqueue-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.96.Final/netty-resolver-dns-native-macos-4.1.96.Final-osx-x86_64.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-resolver-dns-classes-macos/4.1.96.Final/netty-resolver-dns-classes-macos-4.1.96.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final-osx-aarch_64.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.96.Final/netty-transport-native-kqueue-4.1.96.Final-osx-aarch_64.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.96.Final/netty-resolver-dns-native-macos-4.1.96.Final-osx-aarch_64.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-linux-x86_64.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-tcnative-classes/2.0.61.Final/netty-tcnative-classes-2.0.61.Final.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-linux-aarch_64.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-osx-x86_64.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-osx-aarch_64.jar:/Users/teodorkalev/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-windows-x86_64.jar:/Users/teodorkalev/.m2/repository/com/aayushatharva/brotli4j/brotli4j/1.12.0/brotli4j-1.12.0.jar:/Users/teodorkalev/.m2/repository/com/aayushatharva/brotli4j/service/1.12.0/service-1.12.0.jar:/Users/teodorkalev/.m2/repository/com/aayushatharva/brotli4j/native-osx-aarch64/1.12.0/native-osx-aarch64-1.12.0.jar:/Users/teodorkalev/.m2/repository/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar:/Users/teodorkalev/.m2/repository/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar:/Users/teodorkalev/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/Users/teodorkalev/.m2/repository/org/slf4j/jcl-over-slf4j/2.0.9/jcl-over-slf4j-2.0.9.jar:/Users/teodorkalev/.m2/repository/org/antlr/antlr4-runtime/4.11.1/antlr4-runtime-4.11.1.jar:/Users/teodorkalev/.m2/repository/com/jayway/jsonpath/json-path/2.8.0/json-path-2.8.0.jar:/Users/teodorkalev/.m2/repository/net/minidev/json-smart/2.4.10/json-smart-2.4.10.jar:/Users/teodorkalev/.m2/repository/net/minidev/accessors-smart/2.4.9/accessors-smart-2.4.9.jar:/Users/teodorkalev/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/Users/teodorkalev/.m2/repository/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar:/Users/teodorkalev/.m2/repository/de/siegmar/fastcsv/2.2.1/fastcsv-2.2.1.jar:/Users/teodorkalev/.m2/repository/info/picocli/picocli/4.7.1/picocli-4.7.1.jar:/Users/teodorkalev/.m2/repository/io/github/classgraph/classgraph/4.8.160/classgraph-4.8.160.jar:/Users/teodorkalev/.m2/repository/io/github/t12y/resemble/1.0.2/resemble-1.0.2.jar:/Users/teodorkalev/.m2/repository/io/github/t12y/ssim/1.0.0/ssim-1.0.0.jar:/Users/teodorkalev/.m2/repository/com/intuit/karate/karate-junit5/1.4.1/karate-junit5-1.4.1.jar:/Users/teodorkalev/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/teodorkalev/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/teodorkalev/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/teodorkalev/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/teodorkalev/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/teodorkalev/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/Users/teodorkalev/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.2/junit-jupiter-5.9.2.jar:/Users/teodorkalev/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.2/junit-jupiter-params-5.9.2.jar:/Users/teodorkalev/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/teodorkalev/.m2/repository/ch/qos/logback/logback-classic/1.2.12/logback-classic-1.2.12.jar:/Users/teodorkalev/.m2/repository/ch/qos/logback/logback-core/1.2.12/logback-core-1.2.12.jar:/Users/teodorkalev/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar:/Users/teodorkalev/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:/Users/teodorkalev/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar:"/>
@@ -29,8 +29,8 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="karate.options" value="--tags ~@ignore"/>
-    <property name="surefire.real.class.path" value="/Users/teodorkalev/Desktop/karate/target/surefire/surefirebooter-20251006142156619_3.jar"/>
+    <property name="karate.options" value="--tags @main"/>
+    <property name="surefire.real.class.path" value="/Users/teodorkalev/Desktop/karate/target/surefire/surefirebooter-20251006143650609_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17.0.16+0"/>
@@ -58,41 +58,47 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="[1:9] Login with valid EGN format" classname="features/auth" time="0.337">
-    <system-out><![CDATA[14:21:56,881 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
-14:21:56,881 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/Users/teodorkalev/Desktop/karate/target/test-classes/logback.xml]
-14:21:56,901 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
-14:21:56,901 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
-14:21:56,903 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
-14:21:56,904 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
-14:21:56,924 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
-14:21:56,925 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
-14:21:56,929 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@429075478 - No compression will be used
-14:21:56,929 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@429075478 - Will use the pattern target/karate.%d{yyyy-MM-dd}.%i.log for the active file
-14:21:56,930 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@73eb439a - The date pattern is 'yyyy-MM-dd' from file name pattern 'target/karate.%d{yyyy-MM-dd}.%i.log'.
-14:21:56,930 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@73eb439a - Roll-over at midnight.
-14:21:56,935 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@73eb439a - Setting initial period to Mon Oct 06 14:21:49 EEST 2025
-14:21:56,935 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@73eb439a - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
-14:21:56,935 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@73eb439a - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
-14:21:56,935 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
-14:21:56,936 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: target/karate.log
-14:21:56,936 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [target/karate.log]
-14:21:56,936 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.intuit] to INFO
-14:21:56,936 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [com.intuit] to false
-14:21:56,936 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[com.intuit]
-14:21:56,936 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[com.intuit]
-14:21:56,936 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
-14:21:56,936 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
-14:21:56,936 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
-14:21:56,936 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
-14:21:56,937 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@514646ef - Registering current configuration as safe fallback point
+  <testcase name="[1:9] Step 1 - Login with valid EGN format" classname="features/main-test-suite" time="0.375">
+    <system-out><![CDATA[14:36:50,886 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+14:36:50,886 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/Users/teodorkalev/Desktop/karate/target/test-classes/logback.xml]
+14:36:50,908 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+14:36:50,908 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+14:36:50,910 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+14:36:50,912 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+14:36:50,934 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+14:36:50,935 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+14:36:50,939 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@429075478 - No compression will be used
+14:36:50,939 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@429075478 - Will use the pattern target/karate.%d{yyyy-MM-dd}.%i.log for the active file
+14:36:50,940 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@73eb439a - The date pattern is 'yyyy-MM-dd' from file name pattern 'target/karate.%d{yyyy-MM-dd}.%i.log'.
+14:36:50,940 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@73eb439a - Roll-over at midnight.
+14:36:50,945 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@73eb439a - Setting initial period to Mon Oct 06 14:35:08 EEST 2025
+14:36:50,945 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@73eb439a - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+14:36:50,945 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@73eb439a - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+14:36:50,946 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+14:36:50,947 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: target/karate.log
+14:36:50,947 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [target/karate.log]
+14:36:50,947 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.intuit] to INFO
+14:36:50,947 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [com.intuit] to false
+14:36:50,947 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[com.intuit]
+14:36:50,947 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[com.intuit]
+14:36:50,947 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+14:36:50,947 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+14:36:50,947 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+14:36:50,947 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+14:36:50,947 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@514646ef - Registering current configuration as safe fallback point
 
-14:21:56.988 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags ~@ignore
-14:21:57.647 [main] INFO  com.intuit.karate - karate.env system property was: null 
-14:21:57.649 [main] INFO  com.intuit.karate - config: {
+14:36:51.006 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @main
+14:36:51.738 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:51.741 [main] INFO  com.intuit.karate - config: {
   "env": "dev",
   "baseUrl": "http://localhost:8082",
   "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
   "apiTimeout": 5000,
   "retryCount": 3,
   "retryInterval": 1000,
@@ -105,125 +111,18 @@
  
 ]]></system-out>
   </testcase>
-  <testcase name="[2:25] Login with invalid EGN length" classname="features/auth" time="0.019">
-    <failure message="match failed: CONTAINS&#10;  $ | actual does not contain expected (STRING:STRING)&#10;  &apos;EGNOrEIK must be 9 or 10 characters&apos;&#10;  &apos;EGNOrEIK must be 8 or 10 characters&apos;&#10;&#10;classpath:features/auth.feature:37" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-match failed: CONTAINS
-  $ | actual does not contain expected (STRING:STRING)
-  'EGNOrEIK must be 9 or 10 characters'
-  'EGNOrEIK must be 8 or 10 characters'
-
-classpath:features/auth.feature:37
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:135)
-	at com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:86)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$0(DynamicTestTestDescriptor.java:53)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
-	at org.junit.jupiter.api.extension.InvocationInterceptor.interceptDynamicTest(InvocationInterceptor.java:167)
-	at org.junit.jupiter.api.extension.InvocationInterceptor.interceptDynamicTest(InvocationInterceptor.java:184)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$1(DynamicTestTestDescriptor.java:61)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptorCall.lambda$ofVoid$0(InvocationInterceptorChain.java:78)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.execute(DynamicTestTestDescriptor.java:60)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.execute(DynamicTestTestDescriptor.java:32)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:226)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:204)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.forEachOrdered(ReferencePipeline.java:601)
-	at org.junit.jupiter.engine.descriptor.DynamicContainerTestDescriptor.execute(DynamicContainerTestDescriptor.java:67)
-	at org.junit.jupiter.engine.descriptor.DynamicContainerTestDescriptor.execute(DynamicContainerTestDescriptor.java:33)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:226)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:204)
-	at java.base/java.util.Optional.ifPresent(Optional.java:178)
-	at org.junit.jupiter.engine.descriptor.TestFactoryTestDescriptor.lambda$invokeTestMethod$1(TestFactoryTestDescriptor.java:108)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.TestFactoryTestDescriptor.invokeTestMethod(TestFactoryTestDescriptor.java:95)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
-	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
-	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:50)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-    <system-out><![CDATA[14:21:57.956 [main] INFO  com.intuit.karate - karate.env system property was: null 
-14:21:57.957 [main] INFO  com.intuit.karate - config: {
+  <testcase name="[2:12] Step 2 - Login with invalid EGN length" classname="features/main-test-suite" time="0.133">
+    <system-out><![CDATA[14:36:52.086 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:52.088 [main] INFO  com.intuit.karate - config: {
   "env": "dev",
   "baseUrl": "http://localhost:8082",
   "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
   "apiTimeout": 5000,
   "retryCount": 3,
   "retryInterval": 1000,
@@ -234,22 +133,44 @@ classpath:features/auth.feature:37
   }
 }
  
-14:21:57.967 [main] ERROR com.intuit.karate - classpath:features/auth.feature:37
-And match response.errorMessage contains "EGNOrEIK must be 8 or 10 characters"
-match failed: CONTAINS
-  $ | actual does not contain expected (STRING:STRING)
-  'EGNOrEIK must be 9 or 10 characters'
-  'EGNOrEIK must be 8 or 10 characters'
-
-classpath:features/auth.feature:37
 ]]></system-out>
   </testcase>
-  <testcase name="[3:39] Login with empty credentials" classname="features/auth" time="0.358">
-    <system-out><![CDATA[14:21:57.976 [main] INFO  com.intuit.karate - karate.env system property was: null 
-14:21:57.976 [main] INFO  com.intuit.karate - config: {
+  <testcase name="[3:15] Step 3 - Login with empty credentials" classname="features/main-test-suite" time="0.128">
+    <system-out><![CDATA[14:36:52.217 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:52.217 [main] INFO  com.intuit.karate - config: {
   "env": "dev",
   "baseUrl": "http://localhost:8082",
   "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+]]></system-out>
+  </testcase>
+  <testcase name="[4:18] Step 4 - Login and Get Companies (chained)" classname="features/main-test-suite" time="0.444">
+    <system-out><![CDATA[14:36:52.346 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:52.347 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
   "apiTimeout": 5000,
   "retryCount": 3,
   "retryInterval": 1000,
@@ -261,28 +182,9 @@ classpath:features/auth.feature:37
 }
  
 ---------------------------------------------------------
-feature: classpath:features/auth.feature
-scenarios:  3 | passed:  2 | failed:  1 | time: 0.2909
+feature: classpath:features/main-test-suite.feature
+scenarios:  4 | passed:  4 | failed:  0 | time: 0.6696
 ---------------------------------------------------------
-
-Karate version: 1.4.1
-======================================================
-elapsed:   1.30 | threads:    1 | thread time: 0.29 
-features:     1 | skipped:    0 | efficiency: 0.22
-scenarios:    3 | passed:     2 | failed: 1
-======================================================
->>> failed features:
-match failed: CONTAINS
-  $ | actual does not contain expected (STRING:STRING)
-  'EGNOrEIK must be 9 or 10 characters'
-  'EGNOrEIK must be 8 or 10 characters'
-
-classpath:features/auth.feature:37
-<<<
-
-HTML report: (paste into browser to view) | Karate version: 1.4.1
-file:///Users/teodorkalev/Desktop/karate/target/karate-reports/karate-summary.html
-===================================================================
 
 ]]></system-out>
   </testcase>

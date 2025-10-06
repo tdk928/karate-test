@@ -19,6 +19,14 @@ function fn() {
         config.timeout = 10000;
     }
     
+    // Test credentials - customize these for your environment
+    config.testCredentials = {
+        validEgnOrEik: '9308149045',
+        validPassword: '9308149045',
+        invalidEgnOrEik: '123',
+        invalidPassword: 'wrong'
+    };
+    
     // Global configuration
     config.apiTimeout = config.timeout || 10000;
     config.retryCount = 3;

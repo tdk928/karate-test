@@ -198,3 +198,849 @@ classpath:features/auth.feature:37
   }
 }
  
+2025-10-06 14:24:08.546 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags ~@ignore
+2025-10-06 14:24:09.163 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:24:09.165 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:24:09.452 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:24:09.453 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:24:09.467 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:24:09.467 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:26:26.420 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @api
+2025-10-06 14:26:27.154 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:26:27.157 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:26:27.462 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:26:27.463 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:26:27.475 [main] ERROR com.intuit.karate - classpath:features/api-tests.feature:31
+Then status 200
+status code was: 401, expected: 200, response time in milliseconds: 2, url: http://localhost:8082/gateway/companies/get-all-companies, response: 
+{"error":"Unauthorized","message":"Missing Authorization header","timestamp":"2025-10-06T11:26:27.470856Z"}
+classpath:features/api-tests.feature:31
+2025-10-06 14:26:27.484 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:26:27.485 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:26:27.499 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:26:27.500 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:27:43.251 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @main
+2025-10-06 14:27:43.972 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:27:43.978 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:28:54.858 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @main
+2025-10-06 14:28:55.680 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:28:55.683 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:29:03.797 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags ~@ignore
+2025-10-06 14:29:04.541 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:29:04.544 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:29:04.863 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:29:04.864 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:29:04.878 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:29:04.878 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:29:05.153 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:29:05.153 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:29:19.850 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @main
+2025-10-06 14:29:20.466 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:29:20.469 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:29:56.686 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @main
+2025-10-06 14:29:57.381 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:29:57.385 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:30:03.817 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @auth
+2025-10-06 14:30:04.578 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:30:04.581 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:30:04.895 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:30:04.895 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:30:04.909 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:30:04.910 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:30:18.031 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @main
+2025-10-06 14:30:18.877 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:30:18.880 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:30:19.243 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:30:19.244 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:30:19.373 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:30:19.373 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:30:29.540 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @main
+2025-10-06 14:30:30.159 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:30:30.161 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:30:30.489 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:30:30.490 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:30:30.614 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:30:30.615 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:31:54.072 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @main
+2025-10-06 14:31:54.773 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:31:54.775 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:31:55.121 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:31:55.122 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:31:55.251 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:31:55.251 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:31:55.387 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:31:55.387 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:31:55.396 [main] ERROR com.intuit.karate - classpath:features/main-test-suite.feature:21
+Then status 200
+status code was: 401, expected: 200, response time in milliseconds: 2, url: http://localhost:8082/gateway/companies/get-all-companies, response: 
+{"error":"Unauthorized","message":"Missing Authorization header","timestamp":"2025-10-06T11:31:55.391674Z"}
+classpath:features/main-test-suite.feature:21
+2025-10-06 14:32:01.331 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @main
+2025-10-06 14:32:02.052 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:32:02.058 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:32:02.396 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:32:02.397 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:32:02.530 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:32:02.530 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:32:02.657 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:32:02.657 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:32:02.664 [main] ERROR com.intuit.karate - classpath:features/main-test-suite.feature:21
+Then status 200
+status code was: 401, expected: 200, response time in milliseconds: 1, url: http://localhost:8082/gateway/companies/get-all-companies, response: 
+{"error":"Unauthorized","message":"Missing Authorization header","timestamp":"2025-10-06T11:32:02.660203Z"}
+classpath:features/main-test-suite.feature:21
+2025-10-06 14:32:12.590 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @main
+2025-10-06 14:32:13.285 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:32:13.287 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:32:13.640 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:32:13.641 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:32:13.766 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:32:13.766 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:32:13.889 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:32:13.890 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:32:13.896 [main] ERROR com.intuit.karate - classpath:features/main-test-suite.feature:21
+Then status 200
+status code was: 401, expected: 200, response time in milliseconds: 1, url: http://localhost:8082/gateway/companies/get-all-companies, response: 
+{"error":"Unauthorized","message":"Missing Authorization header","timestamp":"2025-10-06T11:32:13.892928Z"}
+classpath:features/main-test-suite.feature:21
+2025-10-06 14:32:28.458 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @main
+2025-10-06 14:32:29.104 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:32:29.106 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:32:29.420 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:32:29.420 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:32:29.542 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:32:29.543 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:32:29.663 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:32:29.663 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:32:29.669 [main] ERROR com.intuit.karate - classpath:features/main-test-suite.feature:21
+Then status 200
+status code was: 401, expected: 200, response time in milliseconds: 1, url: http://localhost:8082/gateway/companies/get-all-companies, response: 
+{"error":"Unauthorized","message":"Missing Authorization header","timestamp":"2025-10-06T11:32:29.666187Z"}
+classpath:features/main-test-suite.feature:21
+2025-10-06 14:34:42.872 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @main
+2025-10-06 14:34:43.664 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:34:43.667 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:34:44.017 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:34:44.018 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:34:44.145 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:34:44.145 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:34:44.267 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:34:44.267 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:35:07.659 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @main
+2025-10-06 14:35:08.335 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:35:08.338 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:35:08.663 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:35:08.664 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:35:08.785 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:35:08.785 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:35:08.902 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:35:08.902 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:36:51.006 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @main
+2025-10-06 14:36:51.738 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:36:51.741 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:36:52.086 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:36:52.088 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:36:52.217 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:36:52.217 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 
+2025-10-06 14:36:52.346 [main] INFO  com.intuit.karate - karate.env system property was: null 
+2025-10-06 14:36:52.347 [main] INFO  com.intuit.karate - config: {
+  "env": "dev",
+  "baseUrl": "http://localhost:8082",
+  "timeout": 5000,
+  "testCredentials": {
+    "validEgnOrEik": "9308149045",
+    "validPassword": "9308149045",
+    "invalidEgnOrEik": "123",
+    "invalidPassword": "wrong"
+  },
+  "apiTimeout": 5000,
+  "retryCount": 3,
+  "retryInterval": 1000,
+  "commonHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Karate-Test-Framework"
+  }
+}
+ 

@@ -11,8 +11,8 @@ Feature: Authentication API Tests
     And request
     """
     {
-      "egnOrEik": "9308149045",
-      "password": "9308149045"
+      "egnOrEik": "#(testCredentials.validEgnOrEik)",
+      "password": "#(testCredentials.validPassword)"
     }
     """
     When method POST
@@ -27,8 +27,8 @@ Feature: Authentication API Tests
     And request
     """
     {
-      "egnOrEik": "123",
-      "password": "wrong"
+      "egnOrEik": "#(testCredentials.invalidEgnOrEik)",
+      "password": "#(testCredentials.invalidPassword)"
     }
     """
     When method POST
