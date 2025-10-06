@@ -1,4 +1,4 @@
-@protected @auth
+@protected @auth @ignore
 Feature: Protected Endpoints Tests
   This feature contains reusable authentication logic for protected endpoints
 
@@ -121,12 +121,6 @@ Feature: Protected Endpoints Tests
 
   @removeFromFavorites
   Scenario: Remove Product from Favorites with Validation
-    # If products data is not available, we need to fetch it ourselves
-    # First, let's check if we need to login and get companies
-    * def hasAccessToken = karate.get('accessToken', false)
-    * if (!hasAccessToken) karate.call('protected-endpoints.feature', { tagSelector: '@companies', accessToken: '#(accessToken)' })
-    * if (!hasAccessToken) karate.call('protected-endpoints.feature', { tagSelector: '@products', accessToken: '#(accessToken)', companyIds: '#(companyIds)', companyMap: '#(companyMap)' })
-    
     * print 'Using products data for remove from favorites'
     * def firstProductId = products[0].productId
     * print 'Product ID to remove from favorites:', firstProductId

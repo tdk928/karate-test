@@ -9,10 +9,18 @@ import com.intuit.karate.junit5.Karate;
 public class TestRunner {
     
     /**
-     * Run all tests in the features directory
+     * Run the main test suite which orchestrates all tests
      */
     @Karate.Test
     Karate testAll() {
-        return Karate.run("classpath:features");
+        return Karate.run("classpath:features/main-test-suite.feature");
+    }
+    
+    /**
+     * Run individual authentication tests
+     */
+    @Karate.Test
+    Karate testAuth() {
+        return Karate.run("classpath:features/auth.feature");
     }
 }

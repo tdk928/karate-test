@@ -91,15 +91,8 @@ pipeline {
                         // Archive test results
                         archiveArtifacts artifacts: 'target/karate-reports/**/*', fingerprint: true
                         
-                        // Publish HTML reports
-                        publishHTML([
-                            allowMissing: false,
-                            alwaysLinkToLastBuild: true,
-                            keepAll: true,
-                            reportDir: 'target/karate-reports',
-                            reportFiles: 'karate-summary.html',
-                            reportName: "Karate Test Report - ${params.ENVIRONMENT}"
-                        ])
+                        // HTML reports are available at: target/karate-reports/karate-summary.html
+                        echo "HTML test reports available at: target/karate-reports/karate-summary.html"
                         
                         // Set build status
                         env.TEST_STATUS = 'SUCCESS'
@@ -109,15 +102,8 @@ pipeline {
                         // Archive test results even on failure
                         archiveArtifacts artifacts: 'target/karate-reports/**/*', fingerprint: true, allowEmptyArchive: true
                         
-                        // Publish HTML reports even on failure
-                        publishHTML([
-                            allowMissing: true,
-                            alwaysLinkToLastBuild: true,
-                            keepAll: true,
-                            reportDir: 'target/karate-reports',
-                            reportFiles: 'karate-summary.html',
-                            reportName: "Karate Test Report - ${params.ENVIRONMENT}"
-                        ])
+                        // HTML reports available even on failure
+                        echo "HTML test reports available at: target/karate-reports/karate-summary.html"
                         
                         env.TEST_STATUS = 'FAILURE'
                         env.TEST_RESULTS = 'Some tests failed'
