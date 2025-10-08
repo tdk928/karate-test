@@ -219,7 +219,7 @@ def sendEmailNotification(environment, status, recipients) {
         // Send HTTP POST request to email service
         def response = sh(
             script: """
-                curl -X POST http://your-service/api/send-email \\
+                curl -X POST http://localhost:3000/api/send-email \\
                 -H 'Content-Type: application/json' \\
                 -d '${payload.replace("'", "'\\''")}' \\
                 -w '\\n%{http_code}' \\
