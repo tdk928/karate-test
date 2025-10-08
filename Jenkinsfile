@@ -153,6 +153,14 @@ pipeline {
             archiveArtifacts artifacts: 'target/karate-reports/**/*', fingerprint: true, allowEmptyArchive: true
             archiveArtifacts artifacts: 'target/surefire-reports/**/*', fingerprint: true, allowEmptyArchive: true
             
+            // Send email notification if enabled
+            script {
+                if (params.SEND_EMAIL && params.EMAIL_RECIPIENTS) {
+                    def buildStatus = currentBuild.result ?: 'SUCCESS'
+                    sendEmailNotification(params.ENVIRONMENT, buildStatus, params.EMAIL_RECIPIENTS)
+                }
+            }
+            
             // Clean up workspace if needed
             cleanWs()
         }
@@ -187,19 +195,207 @@ pipeline {
     }
 }
 
-// Email notification step (empty implementation for now)
+// Send email notification via external service
 def sendEmailNotification(environment, status, recipients) {
-    echo "📧 Email notification step (empty implementation)"
+    echo "📧 Sending email notification via external service..."
     echo "Environment: ${environment}"
     echo "Status: ${status}"
     echo "Recipients: ${recipients}"
     
-    // TODO: Implement actual email sending logic here
-    // This could include:
-    // - Using Email Extension Plugin
-    // - Custom SMTP configuration
-    // - HTML email templates with test results
-    // - Attachment of test reports
+    try {
+        // Parse test results from surefire reports
+        def testResults = parseTestResults()
+        
+        // Build email body with test results
+        def emailBody = buildEmailBody(environment, status, testResults)
+        
+        // Prepare JSON payload for email service
+        def payload = groovy.json.JsonOutput.toJson([
+            recipients: recipients.split(',').collect { it.trim() },
+            subject: "Karate Test Results - ${status} - ${environment.toUpperCase()} - Build #${BUILD_NUMBER}",
+            body: emailBody
+        ])
+        
+        // Send HTTP POST request to email service
+        def response = sh(
+            script: """
+                curl -X POST http://your-service/api/send-email \\
+                -H 'Content-Type: application/json' \\
+                -d '${payload.replace("'", "'\\''")}' \\
+                -w '\\n%{http_code}' \\
+                -s
+            """,
+            returnStdout: true
+        ).trim()
+        
+        def lines = response.split('\n')
+        def httpCode = lines[-1]
+        
+        if (httpCode == '200' || httpCode == '201' || httpCode == '204') {
+            echo "✅ Email sent successfully! HTTP ${httpCode}"
+        } else {
+            echo "⚠️ Email service responded with HTTP ${httpCode}"
+            echo "Response: ${lines[0..-2].join('\n')}"
+        }
+        
+    } catch (Exception e) {
+        echo "❌ Failed to send email notification: ${e.getMessage()}"
+        echo "Continuing build despite email failure..."
+    }
+}
+
+// Parse test results from surefire XML reports
+def parseTestResults() {
+    def results = [
+        total: 0,
+        passed: 0,
+        failed: 0,
+        skipped: 0,
+        duration: 0,
+        failures: []
+    ]
     
-    echo "Email notification would be sent here..."
+    try {
+        // Read surefire test results
+        def surefireDir = 'target/surefire-reports'
+        if (fileExists(surefireDir)) {
+            def testFiles = findFiles(glob: "${surefireDir}/TEST-*.xml")
+            
+            testFiles.each { file ->
+                def testXml = readFile(file.path)
+                def testsuite = new XmlSlurper().parseText(testXml)
+                
+                results.total += testsuite.@tests.toInteger()
+                results.failed += testsuite.@failures.toInteger()
+                results.skipped += testsuite.@skipped.toInteger()
+                results.duration += testsuite.@time.toFloat()
+                
+                // Extract failure details
+                testsuite.testcase.each { testcase ->
+                    if (testcase.failure.size() > 0) {
+                        results.failures << [
+                            name: testcase.@name.toString(),
+                            classname: testcase.@classname.toString(),
+                            message: testcase.failure.@message.toString(),
+                            time: testcase.@time.toString()
+                        ]
+                    }
+                }
+            }
+            
+            results.passed = results.total - results.failed - results.skipped
+        }
+    } catch (Exception e) {
+        echo "Warning: Could not parse test results - ${e.getMessage()}"
+    }
+    
+    return results
+}
+
+// Build HTML email body with test results
+def buildEmailBody(environment, status, testResults) {
+    def statusEmoji = status == 'SUCCESS' ? '✅' : (status == 'FAILURE' ? '❌' : '⚠️')
+    def statusColor = status == 'SUCCESS' ? '#28a745' : (status == 'FAILURE' ? '#dc3545' : '#ffc107')
+    
+    def body = """
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+        .header { background-color: ${statusColor}; color: white; padding: 20px; border-radius: 5px; }
+        .content { padding: 20px; }
+        .summary { background-color: #f8f9fa; padding: 15px; border-radius: 5px; margin: 15px 0; }
+        .summary-item { display: inline-block; margin: 10px 20px; }
+        .summary-label { font-weight: bold; color: #666; }
+        .summary-value { font-size: 24px; font-weight: bold; }
+        .success { color: #28a745; }
+        .failure { color: #dc3545; }
+        .skipped { color: #ffc107; }
+        .failures { background-color: #fff3cd; padding: 15px; border-left: 4px solid #ffc107; margin: 15px 0; }
+        .failure-item { margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 3px; }
+        .footer { margin-top: 20px; padding-top: 20px; border-top: 1px solid #ddd; color: #666; font-size: 12px; }
+        a { color: #007bff; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>${statusEmoji} Karate Test Results - ${status}</h1>
+        <p>Environment: <strong>${environment.toUpperCase()}</strong> | Build: <strong>#${BUILD_NUMBER}</strong></p>
+    </div>
+    
+    <div class="content">
+        <div class="summary">
+            <div class="summary-item">
+                <div class="summary-label">Total Tests</div>
+                <div class="summary-value">${testResults.total}</div>
+            </div>
+            <div class="summary-item">
+                <div class="summary-label">Passed</div>
+                <div class="summary-value success">${testResults.passed}</div>
+            </div>
+            <div class="summary-item">
+                <div class="summary-label">Failed</div>
+                <div class="summary-value failure">${testResults.failed}</div>
+            </div>
+            <div class="summary-item">
+                <div class="summary-label">Skipped</div>
+                <div class="summary-value skipped">${testResults.skipped}</div>
+            </div>
+            <div class="summary-item">
+                <div class="summary-label">Duration</div>
+                <div class="summary-value">${String.format('%.2f', testResults.duration)}s</div>
+            </div>
+        </div>
+        
+        <h2>Build Information</h2>
+        <ul>
+            <li><strong>Job:</strong> ${JOB_NAME}</li>
+            <li><strong>Build Number:</strong> ${BUILD_NUMBER}</li>
+            <li><strong>Build URL:</strong> <a href="${BUILD_URL}">${BUILD_URL}</a></li>
+            <li><strong>Git Commit:</strong> ${env.GIT_COMMIT_SHORT ?: 'N/A'}</li>
+            <li><strong>Environment:</strong> ${environment}</li>
+            <li><strong>Timestamp:</strong> ${env.BUILD_TIMESTAMP}</li>
+        </ul>
+        
+        <h2>Reports</h2>
+        <ul>
+            <li><a href="${BUILD_URL}artifact/target/karate-reports/karate-summary.html">Karate HTML Report</a></li>
+            <li><a href="${BUILD_URL}artifact/target/surefire-reports/">Surefire Reports</a></li>
+        </ul>
+"""
+    
+    // Add failure details if any
+    if (testResults.failures.size() > 0) {
+        body += """
+        <div class="failures">
+            <h2>❌ Test Failures (${testResults.failures.size()})</h2>
+"""
+        testResults.failures.each { failure ->
+            body += """
+            <div class="failure-item">
+                <strong>${failure.name}</strong><br>
+                <small>${failure.classname}</small><br>
+                <code style="color: #dc3545;">${failure.message.replaceAll('<', '&lt;').replaceAll('>', '&gt;')}</code><br>
+                <small>Duration: ${failure.time}s</small>
+            </div>
+"""
+        }
+        body += """
+        </div>
+"""
+    }
+    
+    body += """
+    </div>
+    
+    <div class="footer">
+        <p>This is an automated message from Jenkins CI/CD Pipeline.</p>
+        <p>Jenkins URL: <a href="${JENKINS_URL}">${JENKINS_URL}</a></p>
+    </div>
+</body>
+</html>
+"""
+    
+    return body
 }
